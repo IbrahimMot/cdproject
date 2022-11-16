@@ -4,7 +4,7 @@
   docker_image:
     name: ibrahimmotemri/devops:latest
     build:
-     path: /var/lib/jenkins/workspace/Pipeline Sickops
+     path: /var/lib/jenkins/workspace/Pipeline SickOps
      pull: no
     source: build
     state: present
