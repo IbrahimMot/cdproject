@@ -2,8 +2,8 @@
 # tasks file for docker-registry
 - name: Log into DockerHub
   docker_login:
-    username: nadiaabdelmoula
-    password: nadia123456789
+    username: ibrahim.motemri@esprit.tn
+    password: Babou1999
 
 - name: Push the Docker image into the repo
-  shell: docker push nadiaabdelmoula/devops:latest
+  shell: docker push devops:latest

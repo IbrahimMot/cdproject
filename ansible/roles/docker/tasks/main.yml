@@ -2,9 +2,9 @@
 # tasks file for docker
 - name: create image docker
   docker_image:
-    name: nadiaabdelmoula/devops:latest
+    name: devops
     build:
-     path: /var/lib/jenkins/workspace/CDAngular
+     path: /var/lib/jenkins/workspace/Pipeline Sickops
      pull: no
     source: build
     state: present
@@ -12,7 +12,7 @@
 - name: run container docker
   docker_container:
     name: myapp_container
-    image: nadiaabdelmoula/devops:latest
+    image: devops:latest
     state: started
     recreate: true
     ports:
