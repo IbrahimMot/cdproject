@@ -4,7 +4,7 @@
   docker_image:
     name: devops
     build:
-     path: /var/lib/jenkins/workspace/mon-application-angular
+     path: /var/lib/jenkins/workspace/Pipeline Sickops/dist/mon-application-angular
      pull: no
     source: build
     state: present
