@@ -2,9 +2,9 @@
 # tasks file for docker
 - name: create image docker
   docker_image:
-    name: devops
+    name: ibrahimmotemri/devops
     build:
-     path: /var/lib/jenkins/workspace/Pipeline Sickops/dist/mon-application-angular
+     path: /var/lib/jenkins/workspace/Pipeline Sickops
      pull: no
     source: build
     state: present
