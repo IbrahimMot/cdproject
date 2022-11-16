@@ -6,4 +6,4 @@
     password: Babou1999
 
 - name: Push the Docker image into the repo
-  shell: docker push devops:latest
+  shell: docker push ibrahimmotemri/devops:latest
